@@ -1,4 +1,4 @@
 angular.module('angularjs-cart')
     .component('app', {
-        templateUrl: 'app/components/app/app.component.html'
+        templateUrl: 'src/components/app/app.component.html'
     });

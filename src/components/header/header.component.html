@@ -3,13 +3,16 @@
 
     <ul id="menu">
         <li>
-            <a href="">Home</a>
+            <a 
+                ng-click="$ctrl.onLinkClick($event, 'home')" href="">Home</a>
         </li>
         <li>
-            <a href="">Cart</a>
+            <a href="" 
+                ng-click="$ctrl.onLinkClick($event, 'cart')">Cart</a>
         </li>
         <li>
-            <a href="">Checkout</a>
+            <a href="" 
+                ng-click="$ctrl.onLinkClick($event, 'checkout')">Checkout</a>
         </li>
     </ul>
 
